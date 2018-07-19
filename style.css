@@ -66,13 +66,11 @@
   box-sizing: content-box;
 }
 
-/** uncomment to remove lightbox captions
- *
+
 #lightbox-container-image-data-box {
   display: none !important;
 }
- *
-**/
+
 
 .photos ul li a img {
     border: 0px solid #e1d9ec;
@@ -97,4 +95,15 @@ p.personTitle {
 
 p.subinfo, p.subinfo2  {
     color: grey;
+}
+
+
+div#lightbox-container-image-box {
+    width: 30% !important;
+        /* display: none; */
+}
+
+img#lightbox-image {
+    width: 30%;
+    border-radius: 100%;
 }
