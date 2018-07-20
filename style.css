@@ -104,6 +104,108 @@ div#lightbox-container-image-box {
 }
 
 img#lightbox-image {
-    width: 30%;
+    width: 25%;
     border-radius: 100%;
 }
+
+
+#cover{
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    z-index:5;
+    width:100%;
+    height:100%;
+    display:none;
+}
+
+.personLB {
+    height: fit-content;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10%;
+}
+
+.imageLB {
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+p.personTitleLB {
+    TEXT-ALIGN: CENTER;
+    FONT-FAMILY: fantasy;
+    FONT-WEIGHT: BOLD;
+    FONT-SIZE: 1.5EM;
+    -webkit-margin-after: 0.3em;
+    text-transform: capitalize;
+}
+
+
+p.subinfoLB {
+    text-align: center;
+    -webkit-margin-before: 0em;
+        -webkit-margin-after: 0.3em;
+        text-transform: capitalize;
+}
+
+
+p.subinfo2LB {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: inherit;
+    border-width: 1px;
+    border-color: grey;
+}
+
+span.lbsub {
+    text-align: center;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0.3em;
+    text-transform: capitalize;
+}
+
+
+.cancel
+{
+    display:block;
+    position:absolute;
+    top:3px;
+    right:2px;
+    background:white;
+    color:black;
+    height:30px;
+    width:35px;
+    font-size:30px;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+}
+
+.subinfoLBemail {
+    text-align: center;
+
+}
+
+
+
+
+.person { transition: all .2s ease-in-out; }
+.person:hover  { transform: scale(1.05); }
