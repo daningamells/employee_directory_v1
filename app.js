@@ -39,7 +39,7 @@ const data = $.ajax({ //ajax call to fetch data
                 $('p#right-arrow').click(function(e) { // function to make arrows assign a new id and select new employee
                     var newID = parseInt(id) + 1;
 
-                    if (newID === 16) {
+                    if (newID === 12) {
                         newID = 0;
                     }
 
@@ -51,10 +51,10 @@ const data = $.ajax({ //ajax call to fetch data
                 });
 
                 $('p#left-arrow').click(function(e) {
-                    newID = parseInt(id) + -1;
+                    var newID = parseInt(id) + -1;
 
                     if (newID === -1) {
-                        newID = 15;
+                        newID = 11;
                     }
 
                     $("#cover").css("display", "none");
