@@ -138,6 +138,8 @@ img#lightbox-image {
     margin-right: auto;
     display: block;
     margin-top: 5%;
+    width: 30%;
+
 }
 
 p.personTitleLB {
@@ -147,6 +149,7 @@ p.personTitleLB {
     FONT-SIZE: 1.5EM;
     -webkit-margin-after: 0.3em;
     text-transform: capitalize;
+        margin-top: 0px;
 }
 
 
@@ -209,3 +212,17 @@ span.lbsub {
 
 .person { transition: all .2s ease-in-out; }
 .person:hover  { transform: scale(1.05); }
+
+
+
+span.arrow2 {
+    font-size: 4em;
+    color: grey;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+#left-arrow, #right-arrow  {
+    cursor: pointer;
+}
