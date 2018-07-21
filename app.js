@@ -1,7 +1,7 @@
 var person = [];
 
 const data = $.ajax({ //ajax call to fetch data
-    url: 'https://randomuser.me/api/?results=16&nat=gb',
+    url: 'https://randomuser.me/api/?results=12&nat=gb',
     dataType: 'json',
     success: function(data) {
         for (i = 0; i < data.info.results; i++) {
